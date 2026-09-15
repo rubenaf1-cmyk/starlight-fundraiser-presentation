@@ -224,15 +224,16 @@ section.active .card, section.active .phase-card{
   position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
 }
 #trailerIntro .trailer-scrim{
-  position:absolute; inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.1) 55%, rgba(0,0,0,0.75) 100%);
+  position:absolute; inset:0; background:linear-gradient(180deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.55) 45%, rgba(0,0,0,0.8) 100%);
 }
 #trailerIntro .trailer-title{
   position:relative; z-index:1; text-align:center; color:var(--white); padding:2rem;
   opacity:0; animation:trailerFadeIn 1.8s ease .6s forwards;
+  text-shadow:0 2px 18px rgba(0,0,0,0.85), 0 1px 4px rgba(0,0,0,0.9);
 }
-#trailerIntro .trailer-kicker{color:var(--terracotta); letter-spacing:0.22em; font-weight:700; font-size:0.78rem; text-transform:uppercase; margin-bottom:0.9rem;}
+#trailerIntro .trailer-kicker{color:#FFD9A8; letter-spacing:0.22em; font-weight:700; font-size:0.78rem; text-transform:uppercase; margin-bottom:0.9rem;}
 #trailerIntro .trailer-title h1{font-size:clamp(2rem,5vw,3.4rem); margin-bottom:0.6rem;}
-#trailerIntro .trailer-title p{font-size:1rem; opacity:0.85; max-width:480px; margin:0 auto;}
+#trailerIntro .trailer-title p{font-size:1rem; opacity:0.92; max-width:480px; margin:0 auto;}
 @keyframes trailerFadeIn{from{opacity:0; transform:translateY(14px);} to{opacity:1; transform:translateY(0);}}
 #skipTrailer{
   position:absolute; z-index:2; right:1.4rem; bottom:1.4rem; color:var(--cream); opacity:0.75; font-size:0.85rem;
